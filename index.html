@@ -1,12 +1,27 @@
---- 
-layout: default 
-title: OSUC_570655 
 ---
- 
-{% include wasp_svg.html %} 
- 
-{% include controls.html %} {% include glossary.html %}
-Images courtesy of Smithsonian and USDA ARS SEL 
-Definitions provided by The Hymenoptera Anatomy Ontology 
-Site developed by Collin Schwantes and Brian Hedberg 
-github repository
+layout: default
+title: OSUC_570655
+---
+
+<div class ="panzoom">
+  <!-- add svg image as text, embed jpeg with image, profit-->
+  {% include wasp_svg.html %}
+</div>
+
+<div class="search-bar">
+<input id="tags" type="text" class="form-control" placeholder= "Search..."/>
+<button id="tags-search"  class="search-button">
+<i class="fa fa-search"></i>
+</button>
+</div>
+
+{% include controls.html %}
+
+{% include glossary.html %}
+
+<footer> Images courtesy of Smithsonian and USDA ARS SEL <br> Definitions provided by The Hymenoptera Anatomy Ontology <br> Site developed by Collin Schwantes and Brian Hedberg <br> <a href="https://github.com/collinschwantes/Annotated_Ultras.git">github repository</a></footer>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/glossary.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/autocomplete.js"></script>
