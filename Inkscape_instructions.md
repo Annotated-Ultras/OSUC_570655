@@ -1,29 +1,5 @@
-
-## Check out the demo
-Use the search bar to look for specific features or just click around.  
-[Demo site](http://collinschwantes.github.io/Annotated_Ultras/)
-
-## Running the site
-
-This site is built with [jekyll](https://jekyllrb.com/). 
-
-To run the site make sure that jekyll is installed 
-`gem install jekyll`
-
-`which -a jekyll` should return a ruby shim path (not a blank)
-and/or running `jekyll` returns a list of options
-
-Navigate to the folder in the commandline `cd path/to/folder` 
-
-After that, `jekyll serve` should boot up the site at localhost:4000
-
-If that doesn't work. Check out the instructions for installing jekyll [here](https://jekyllrb.com/docs/installation/) 
-- If you don't have rubygems installed you might need to install the following:
-    -  [Homebrew](http://brew.sh/)
-    -  [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-    -  [Rubygems](https://rubygems.org/pages/download)
-
 ##Instructions for creating a new Interactive Annotated Image
+#####Collin Schwantes
 03/21/16
 
 
@@ -72,6 +48,4 @@ Follow these instructions to create an annotated image in [inkscape](https://ink
 15. Copy the remaining text and paste it into the file `svg.html` that lives in the **_includes** folder 
     - You can use TextEdit for this as well
     - If there is already text in the `svg.html` file, replace it with the new svg text
-16. Upload the `_site` folder to a server or create a `gh-pages` branch that contains the full project. Pat yourself on the back.
-    - If you have questions about generatng the _site folder, see [running the site](#running-the-site) and the documentation for [jekyll](https://jekyllrb.com/docs/home/)
-    - If you create a gh-pages branch, be sure to change the urls in the index.html file to site.github.url
+16. Upload the folder to the server. Pat yourself on the back ![done](http://i3.kym-cdn.com/photos/images/facebook/000/011/296/success_baby.jpg)
